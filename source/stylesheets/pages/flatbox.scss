@@ -1,0 +1,71 @@
+.header-flat {
+  border: 1px solid $light-gray;
+  p {
+    font-weight: normal;
+    font-size: 14px;
+    color: $gray;
+    }
+  h1 {
+  font-size: 18px;
+  margin-top: 0;
+  color: $green;
+    }
+}
+
+.header-flat-details {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  padding-left: 0;
+}
+
+.header-flat-owner {
+  padding: 20px;
+}
+
+.header-flat form {
+  margin: 20px 0;
+  margin-right: 0;
+  background: $gray;
+  padding: 15px;
+  border-radius: 3px;
+  h4 {
+    color: $white;
+    text-align: center;
+  }
+}
+
+#flat-description {
+  h2{
+    font-size: 18px;
+    color: $black;
+    font-weight: bold;
+  }
+  p {
+    font-size: 16px;
+    color: $black;
+  }
+}
+
+#flat-data {
+  font-weight: normal;
+  font-size: 12px;
+  color: $dark-gray;
+}
+#flat-data li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+#flat-data strong {
+  margin-left: 9px;
+}
+
+#flat-data i {
+  font-size: 20px;
+  color: #9B9B9B;
+  width: 20px;
+  text-align: center;
+}
+
+
